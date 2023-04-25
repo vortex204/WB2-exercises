@@ -1,3 +1,4 @@
+// formula area = length x width
 // assign values to length and width 
 let length = 10;
 let width = 5;

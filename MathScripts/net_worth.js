@@ -1,3 +1,4 @@
+// formula networth = assets - debt
 // prompt user ofr assets and debt
 let assets = 25000;
 let debt =  8000;
