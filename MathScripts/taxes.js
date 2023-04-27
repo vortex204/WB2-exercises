@@ -2,7 +2,7 @@
 // Assign value to salary variable
 let salary = 5000;
 
-// Calculate taxes withheld using formula
+// Calculate taxes withheld using formula.
 let taxes = salary * 0.23;
 
 // Format output string
