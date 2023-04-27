@@ -1,0 +1,25 @@
+const studentName = "Betty";
+const studentMajor = "ENG";
+
+const majors = {
+  BIOL: { name: "Biology", location: "Science Bldg, Room 310" },
+  CSCI: { name: "Computer Science", location: "Sheppard Hall, Room 314" },
+  ENG: { name: "English", location: "Kerr Hall, Room 201" },
+  HIST: { name: "History", location: "Kerr Hall, Room 114" },
+  MKT: { name: "Marketing", location: "Westly Hall, Room 310" }
+};
+
+let majorName = "<unknown>";
+let advisingLocation = "";
+
+// Look up major name and advising location based on major code
+if (studentMajor in majors) {
+  majorName = majors[studentMajor].name;
+  advisingLocation = majors[studentMajor].location;
+}
+
+// Display student's name, major, and advising location
+console.log(`Student: ${studentName}`);
+console.log(`Major: ${majorName}`);
+console.log(`Advising Location: ${advisingLocation}`);
+
