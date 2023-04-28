@@ -1,10 +1,12 @@
 window.onload = init;
 
 function init() {
-    const greetBtn = document.getElementById(greetBtn);
+    const greetBtn = document.getElementById("greetBtn");
     greetBtn.onclick = onGreetUserBtnClicked;
 }
 
-function onGreetBtnClicked() {
+function onGreetUserBtnClicked() {
     alert("Hi there!");
 }
+
+ 
